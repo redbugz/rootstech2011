@@ -10,7 +10,6 @@ $(document).ready(function() {
       getData("familytree/v2/search?"+$(this).serialize(), handleSearchResults);
       return false;
     });
-  sessionId = $.cookie("fssessionid");
   getData("identity/v2/user", function(data) {
     if (data.users && data.users[0]) {
       $("#authlink").text("Sign Out").attr("href", "").button().click(signOut);
