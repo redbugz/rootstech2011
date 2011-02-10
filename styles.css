@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+  background-color: #fff;
+  font-family: "Gill Sans",Arial,sans-serif;
+  font-size: medium;
+}
+
+.content {
+  margin: 20px;
+  padding: 20px;
+}
+
+.message {
+  text-align: center;
+  margin: auto;
+}
+
+#authlink {
+  font-size: small;
+  padding: 3px 8px;
+}
+
+.error {
+  background-color: #ffaaaa;
+  margin: 20px;
+}
+
+.info {
+  background-color: #eeddbb;
+}
+
+header {
+  padding: 2px 20px;
+  text-align: right;
+  vertical-align: baseline;
+  background-color: #abc;
+  color: #123;
+}
+
+footer {
+  color: brown;
+  background-color: #ccc;
+  padding: 2px;
+  font-size: 12px;
+}
+
+h1 {
+  background-color: #f4cd11;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#searchForm fieldset fieldset {
+  border: none;
+}
+
+table td,th {
+  min-width: 60px;
+/*  margin: 8px 0px;*/
+  padding: 2px 20px;
+}
+
+.mydialog {
+  top: 60px;
+}
+.ui-widget { font-size: medium; }
